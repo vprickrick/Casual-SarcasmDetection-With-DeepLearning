@@ -7,20 +7,22 @@ This repository contains code for detecting sarcasm in Reddit and Twitter posts 
 ## Project Structure
 
 sarcasm-detection/
-├── data/ # Raw dataset files 
+├── data/ # Raw datasets
 │ ├── twitter_training.jsonl
 │ ├── twitter_testing.jsonl
 │ ├── reddit_training.jsonl
 │ └── reddit_testing.jsonl
 │
 ├── models/ # Saved model checkpoints
-│ ├── basic model(no regularization).h5
-│ ├── basic model(with regularization).h5
+│ ├── basic_model_no_regularization.h5
+│ ├── basic_model_with_regularization.h5
 │ └── fastText_model.h5
 │
-├── CASUAL SARCASM.ipynb/ 
-├── readme.md
-└── requirements.txt
+├── notebooks/ # Jupyter notebooks
+│ └── Casual_Sarcasm_Analysis.ipynb
+│
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 
 dataasets link: https://github.com/EducationalTestingService/sarcasm/tree/master
 
