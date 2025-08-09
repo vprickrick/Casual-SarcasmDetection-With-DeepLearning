@@ -14,17 +14,23 @@ sarcasm-detection/
 │ ├── twitter_testing.jsonl
 
 │ ├── reddit_training.jsonl
+
 │ └── reddit_testing.jsonl
 │
 ├── models/ # Saved model checkpoints
+
 │ ├── basic_model_no_regularization.h5
+
 │ ├── basic_model_with_regularization.h5
+
 │ └── fastText_model.h5
 │
 ├── notebooks/ # Jupyter notebooks
+
 │ └── Casual_Sarcasm_Analysis.ipynb
 │
 ├── README.md # Project documentation
+
 └── requirements.txt # Python dependencies
 
 dataasets link: https://github.com/EducationalTestingService/sarcasm/tree/master
