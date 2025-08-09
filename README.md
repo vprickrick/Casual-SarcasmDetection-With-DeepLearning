@@ -5,10 +5,14 @@
 This repository contains code for detecting sarcasm in Reddit and Twitter posts using deep learning models. The system implements three architectures: GloVe-BiLSTM, Regularized Attention Model, and FastText Hybrid.
 
 ## Project Structure
+
 sarcasm-detection/
 ├── data/ # Raw datasets
+
 │ ├── twitter_training.jsonl
+
 │ ├── twitter_testing.jsonl
+
 │ ├── reddit_training.jsonl
 │ └── reddit_testing.jsonl
 │
