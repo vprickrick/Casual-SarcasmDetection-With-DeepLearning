@@ -1,4 +1,4 @@
-# Casual-SarcasmDetection-With-DeepLearning
+
 # Sarcasm Detection in Social Media Texts
 
 ## Project Overview
@@ -22,7 +22,7 @@ sarcasm-detection/
 ├── readme.md
 └── requirements.txt
 
-dataaets link: https://github.com/EducationalTestingService/sarcasm/tree/master
+dataasets link: https://github.com/EducationalTestingService/sarcasm/tree/master
 
 ## Installation
 
